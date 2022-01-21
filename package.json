@@ -35,5 +35,8 @@
     "vinyl-ftp": "^0.6.1",
     "webpack": "^5.56.1",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
   }
 }

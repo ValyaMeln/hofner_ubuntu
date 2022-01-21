@@ -8,24 +8,12 @@
     <title>Hofner</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 
-<!--    <link rel="stylesheet" href="css/bootstrap-grid.css">-->
-<!--    <link rel="stylesheet" href="css/bootstrap-reboot.css">-->
-<!--    <link rel="stylesheet" href="css/bootstrap.css">-->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-<!--    <link rel="stylesheet" href="css/svgFonts.css">-->
-
-<!--    <link rel="stylesheet" href="css/common_styles.css">-->
-<!--    <link rel="stylesheet" href="css/style.css">-->
-
-<!--    <link rel="stylesheet" href="css/modal.css">-->
-
-<!--    <link rel="stylesheet" href="css/media_style.css">-->
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
@@ -308,6 +296,134 @@
 </header>
 
 
+<section class="slider">
+    <a href="#" class="slider__button_link">Переглянути новинки</a>
+    <div id="carouselExampleControls" class="carouselExampleControls carousel slide" data-iterval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider/hofner-banner1.png" alt="Первый слайд">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider/hofner-banner2.png" alt="Второй слайд">
+            </div>
+        </div>
+        <div class="container">
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+
+<!--                <div>-->
+                    <svg class="slider__arrow">
+                        <use xlink:href="img/sprite.svg#arrow-left"></use>
+                    </svg>
+<!--                                    <img src="img/slider/arrow-left.svg" alt="prev">-->
+<!--                </div>-->
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <svg class="slider__arrow">
+                    <use xlink:href="img/sprite.svg#arrow-right"></use>
+                </svg>
+
+<!--                <div>-->
+<!--                    <img src="img/slider/arrow-right.svg" alt="next">-->
+<!--                </div>-->
+            </a>
+        </div>
+    </div>
+    <div id="carouselExampleControlsSmall" class="carouselExampleControlsSmall carousel slide" data-iterval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="carousel-inner_title">Спорядження
+                    спецпідрозділів</h2>
+                <img class="d-block w-100" src="img/slider/banner1_small.png" alt="Первый слайд">
+            </div>
+            <div class="carousel-item">
+                <h2 class="carousel-inner_title">матеріал високих технологій cor<span
+                        class="carousel-inner_title_orange">dura</span></h2>
+                <img class="d-block w-100" src="img/slider/banner2_small.png" alt="Второй слайд">
+            </div>
+        </div>
+        <div class="container">
+            <a class="carousel-control-prev" href="#carouselExampleControlsSmall" role="button" data-slide="prev">
+                <svg class="slider__arrow">
+                    <use xlink:href="img/sprite.svg#arrow-left"></use>
+                </svg>
+                <!--
+<div>-->
+<!--                    <img src="img/slider/arrow-left.svg" alt="prev">-->
+<!--                </div>-->
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControlsSmall" role="button" data-slide="next">
+                <svg class="slider__arrow">
+                    <use xlink:href="img/sprite.svg#arrow-right"></use>
+                </svg>
+<!--                <div>-->
+<!--                    <img src="img/slider/arrow-right.svg" alt="next">-->
+<!--                </div>-->
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="ourProducts">
+    <div class="ourProducts__container container">
+        <div class="ourProducts__product row">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item has_no_padding item">
+                    <h2 class="ourProducts__title">Наші товари</h2>
+                    <p class="ourProducts__product_text">
+                        Ми ретельно контролюємо виготовлення кожної частини спорядження та відбираємо тільки кращі
+                        матеріали
+                    </p>
+                </div>
+            </div>
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item ourProducts__clothing item">
+                    <h5 class="ourProducts__product_choose choose">Обирай</h5>
+                    <h2 class="ourProducts__product_title">
+                        Одяг
+                    </h2>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
+                </div>
+            </div>
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item ourProducts__medicine item">
+                    <h5 class="ourProducts__product_choose choose">Обирай</h5>
+                    <h2 class="ourProducts__product_title">
+                        Медицина
+                    </h2>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
+                </div>
+            </div>
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item ourProducts__results item">
+                    <h5 class="ourProducts__product_choose choose">Обирай</h5>
+                    <h2 class="ourProducts__product_title">
+                        Підсумки
+                    </h2>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
+                </div>
+            </div>
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item ourProducts__backpacks item">
+                    <h5 class="ourProducts__product_choose choose">Обирай</h5>
+                    <h2 class="ourProducts__product_title">
+                        Рюкзаки
+                    </h2>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
+                </div>
+            </div>
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <div class="ourProducts__product_item ourProducts__unloading item">
+                    <h5 class="ourProducts__product_choose choose">Обирай</h5>
+                    <h2 class="ourProducts__product_title _icon-user_letter path2">
+                        Розгрузки
+                    </h2>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 
@@ -323,6 +439,11 @@
 <!--        <use xlink:href="img/sprite.svg#svg2"></use>-->
 <!--    </svg>-->
 <!--</div>-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
 <script src="js/script.js"></script>
 <script src="js/main.js"></script>
 </body>

@@ -16,6 +16,7 @@ const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const uglify = require('gulp-uglify-es').default;
 const tiny= require('gulp-tinypng-compress');
+const imagemin = require('gulp-imagemin')
 const gutil = require('gulp-util');
 const ftp = require('vinyl-ftp');
 
@@ -100,10 +101,11 @@ const htmlInclude = () => {
 
 const imgToApp = () => {
     return src(['./src/img/**/**.jpg', './src/img/**/**.png', './src/img/**/**.jpeg'])
-        .pipe(tiny({
-            key: 'XTX48yBRxJR1xJP2MTv7M6rJncr7kTVP',
-            log:true
-        }))
+        .pipe(imagemin())
+        // .pipe(tiny({
+        //     key: 'XTX48yBRxJR1xJP2MTv7M6rJncr7kTVP',
+        //     log:true
+        // }))
         .pipe(dest('./app/img'))
 }
 
