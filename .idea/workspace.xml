@@ -2,6 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9444ae0-9ce2-401d-8bbc-8aeba2319ef3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/black_basket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/favicon-h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-earth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-talk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon-textile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/plus_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tag-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tag-sale.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/tags20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_common_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_media_style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/ellipse-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/ellipse_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/ellipse-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/ellipseGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/ellipseRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/img_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/quotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/header/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/scroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ellipse-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ellipse_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hamburger-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/ellipse-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/ellipseGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/ellipseRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/img_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/quotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header/rating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/scroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_svgFonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_svgFonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../css/bootstrap-grid.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../css/bootstrap-grid.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../css/bootstrap-grid.min.css" beforeDir="false" />
@@ -118,7 +175,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23zuuIWnzNSMVPPfWs98jzOWIct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,11 +187,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/scss" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,10 +216,23 @@
       <updated>1642749458859</updated>
       <workItem from="1642749460214" duration="231000" />
       <workItem from="1642749710475" duration="146000" />
+      <workItem from="1642749867488" duration="3220000" />
+      <workItem from="1642764697892" duration="3476000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
