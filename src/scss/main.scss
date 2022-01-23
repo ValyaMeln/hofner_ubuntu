@@ -531,20 +531,21 @@ img {
   background: url('../img/tacticalEquipment/lines.png') 0 0/contain no-repeat,
   linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
   url('../img/tacticalEquipment/image_bg.png') 50% / cover no-repeat;
-}
 
-.tacticalEquipment__left_text {
-  padding-right: 50px;
-}
+  &__left_text {
+    padding-right: 50px;
+  }
 
-.tacticalEquipment__title {
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
+  &__title {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
 
-.tacticalEquipment__text {
-  color: #FFFFFF;
-  margin-bottom: 20px;
+  &__text {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
 }
 
 /*===========================================*/
