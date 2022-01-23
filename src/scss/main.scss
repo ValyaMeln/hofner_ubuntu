@@ -118,7 +118,7 @@ img {
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
 
-  .header__menu_buttons_tablet {
+  &__menu_buttons_tablet {
     display: none;
   }
 
@@ -189,7 +189,7 @@ img {
   text-transform: uppercase;
   background: #1B1B1F;
   border: 1px solid #31353E;
-  z-index: 2;
+  z-index: 5;
 
   &_item {
     padding: 7px 15px;
@@ -432,86 +432,92 @@ img {
   padding-left: 10px;
 }
 
+.newDevelopments {
+  &__all_goods {
+    margin-left: 100px;
+    min-width: 84px;
+    text-decoration-line: underline;
+  }
 
-.newDevelopments__all_goods {
-  margin-left: 100px;
-  min-width: 84px;
-  text-decoration-line: underline;
-}
+  &__all_goods:hover {
+    text-decoration-line: none;
+    cursor: pointer;
+  }
 
-.newDevelopments__all_goods:hover {
-  text-decoration-line: none;
-  cursor: pointer;
-}
+  &__navigation_goods_cards {
+    padding-bottom: 20px;
+  }
 
-.newDevelopments__navigation_goods_cards {
-  padding-bottom: 20px;
-}
+  &__cards {
+    padding-top: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
 
-.newDevelopments__cards {
-  padding-top: 0;
-  flex-wrap: nowrap;
-  overflow: hidden;
-}
+  &__arrow_left {
+    min-width: 32px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
 
-.newDevelopments__arrow_left {
-  min-width: 32px;
-  margin-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  cursor: pointer;
-}
+  &__arrow_right {
+    min-width: 32px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
 
-.newDevelopments__arrow_right {
-  min-width: 32px;
-  margin-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  cursor: pointer;
-}
+  &__card {
+    position: relative;
+    padding: 20px 20px 65px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #bb4141;
+  }
 
-.newDevelopments__card {
-  position: relative;
-  padding: 20px 20px 65px;
-  text-align: center;
-  background: #FFFFFF;
-  border: 1px solid #bb4141;
-}
+  &__photo_goods {
+    margin-bottom: 10px;
+  }
 
-.newDevelopments__photo_goods {
-  margin-bottom: 10px;
-}
+  &__photo_vest {
+    max-height: 108px;
+    max-width: 108px;
+  }
 
-.newDevelopments__photo_vest {
-  max-height: 108px;
-  max-width: 108px;
-}
+  &__product_name {
+    margin-bottom: 10px;
+  }
 
-.newDevelopments__product_name {
-  margin-bottom: 10px;
-}
+  &__new_price {
+    margin-right: 5px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F33030;
+  }
 
-.newDevelopments__new_price {
-  margin-right: 5px;
-  font-size: 22px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #F33030;
-}
+  &__old_price {
+    margin-left: 5px;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #5C5C5C;
+  }
 
-.newDevelopments__old_price {
-  margin-left: 5px;
-  font-size: 20px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  text-decoration-line: line-through;
-  text-transform: uppercase;
-  color: #5C5C5C;
-}
+  &__column {
+    width: 292px;
+  }
 
-.newDevelopments__column {
-  width: 292px;
+  &__btn-icon {
+    margin-left: 5px;
+  }
+
 }
 
 .tags {
