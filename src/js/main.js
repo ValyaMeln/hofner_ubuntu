@@ -1,2 +1,3 @@
-import {asd} from "./func";
-asd();
+import {modal} from "./modal";
+
+modal();
