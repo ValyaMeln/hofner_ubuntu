@@ -19,22 +19,24 @@
   .ourInstagram__info {
     padding-bottom: 20px;
   }
-
+  .ourAdvantages__card {
+    margin-bottom: 25px;
+  }
   .footer__btn_go_up {
     top: -250px;
   }
 
-  .ourAdvantages__card:first-child {
-    padding-left: 25px;
-  }
-
-  .ourAdvantages__card:nth-child(3n) {
-    padding-right: 25px;
-  }
-
-  .ourAdvantages__card:nth-child(4) {
-    padding-left: 25px;
-  }
+  //.ourAdvantages__card:first-child {
+  //  padding-left: 25px;
+  //}
+  //
+  //.ourAdvantages__card:nth-child(3n) {
+  //  padding-right: 25px;
+  //}
+  //
+  //.ourAdvantages__card:nth-child(4) {
+  //  padding-left: 25px;
+  //}
 
   .footer__menu_item {
     padding-right: 25px;
@@ -426,6 +428,9 @@
     min-width: 270px;
   }
 
+  .ourAdvantages__card {
+    margin-bottom: 15px;
+  }
   .footer__subscription_title {
     margin-bottom: 10px;
   }

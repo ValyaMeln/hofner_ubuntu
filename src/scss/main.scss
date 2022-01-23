@@ -646,72 +646,37 @@ img {
 /*========================================*/
 .ourAdvantages {
   padding-bottom: 0;
-}
 
-.ourAdvantages__card {
-  margin-bottom: 55px;
-}
+  &__card {
+    margin-bottom: 55px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
-.ourAdvantages__card {
-  padding-left: 25px;
-  padding-right: 25px;
-}
+  &__title {
+    color: #000000;
+    margin-bottom: 20px;
+  }
 
-.ourAdvantages__card:first-child {
-  padding-left: 0;
-}
+  &__info_text {
+    color: #5C5C5C;
+    margin-bottom: 20px;
+  }
 
-.ourAdvantages__card:nth-child(3n) {
-  padding-right: 0;
-}
+  &__info_title {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 56px;
+  }
 
-.ourAdvantages__card:nth-child(4) {
-  padding-left: 0;
-}
+  &__info_icon {
+    position: absolute;
+    top: 0;
+    //left: 0;
+    height: 40px;
+    width: 40px;
 
-.ourAdvantages__title {
-  color: #000000;
-  margin-bottom: 20px;
-}
-
-.ourAdvantages__info_text {
-  color: #5C5C5C;
-  margin-bottom: 20px;
-}
-
-.ourAdvantages__info_title {
-  position: relative;
-  margin-bottom: 20px;
-  padding-top: 56px;
-}
-
-.ourAdvantages__info_title::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 40px;
-  width: 40px;
-}
-
-.design::before {
-  background: transparent url(../img/icon_design.svg) 0 0/100% no-repeat;
-}
-
-.wish::before {
-  background: transparent url(../img/icon-talk.svg) 0 0/100% no-repeat;
-}
-
-.quality::before {
-  background: transparent url(../img/icon-target.svg) 0 0/100% no-repeat;
-}
-
-.cloth::before {
-  background: transparent url(../img/icon-textile.svg) 0 0/100% no-repeat;
-}
-
-.delivery::before {
-  background: transparent url(../img/icon-earth.svg) 0 0/100% no-repeat;
+  }
 }
 
 /*================================================================*/
