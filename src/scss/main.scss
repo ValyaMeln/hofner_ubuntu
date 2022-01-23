@@ -608,38 +608,39 @@ img {
 
 
 /*==============================*/
+
 .productsTested {
   background: url('../img/productsTested/lines.svg') 0 0 / contain no-repeat,
   #0F0F10;
-}
 
-.productsTested__info {
-  padding-right: 80px;
-}
+  &__info {
+    padding-right: 80px;
+  }
 
-.productsTested__title {
-  margin-bottom: 35px;
-  color: #FFFFFF;
-}
+  &__title {
+    margin-bottom: 35px;
+    color: #FFFFFF;
+  }
 
-.productsTested__text {
-  color: #FFFFFF;
-}
+  &__text {
+    color: #FFFFFF;
+  }
 
-.productsTested__video {
-  min-height: 300px;
-  background: #000000;
-}
+  &__video {
+    min-height: 300px;
+    background: #000000;
+  }
 
-.productsTested__video iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+  &__video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
 }
 
 /*========================================*/
