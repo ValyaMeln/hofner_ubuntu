@@ -235,17 +235,17 @@
 }
 
 @media screen and (max-width: 570px) {
-  .footer__bottom_business {
-    margin-top: 20px;
-  }
+  //.footer__bottom_business {
+  //  margin-top: 20px;
+  //}
 }
 
-@media screen and (max-width: 535px) {
-  .footer__bottom_business {
-    margin-top: 0;
-  }
-
-}
+//@media screen and (max-width: 535px) {
+//  .footer__bottom_business {
+//    margin-top: 0;
+//  }
+//
+//}
 
 @media screen and (max-width: 440px) {
   .header__menu_container {
@@ -287,13 +287,13 @@
   }
 
   .footer__bottom_bank_card {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 0;
   }
 
-  .footer__bottom_socials {
-    padding-left: 0;
-  }
+  //.footer__bottom_socials {
+  //  padding-left: 0;
+  //}
 
   .footer__bottom_business::before {
     right: 0;

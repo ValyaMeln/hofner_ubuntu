@@ -708,8 +708,11 @@ img {
 .footer__btn_go_up_small {
   display: none;
   position: absolute;
-  bottom: -55px;
+  bottom: -115px;
   right: 15px;
+}
+.footer__go_up_small{
+  width: 40px;
 }
 
 .footer__menu_item_title {
@@ -807,7 +810,7 @@ input:focus ~ .label {
   padding-top: 35px;
   padding-bottom: 35px;
   background: #000000;
-  border-top: 1px solid #31353E;;
+  border-top: 1px solid #31353E;
 }
 
 .footer__bottom_bank_cards {
@@ -816,6 +819,7 @@ input:focus ~ .label {
 
 .footer__bottom_bank_card {
   margin-right: 25px;
+  width: 40px;
 }
 
 .footer__bottom_socials {
@@ -825,25 +829,36 @@ input:focus ~ .label {
 
 .footer__bottom_social_item {
   margin-right: 13px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
 }
 
 .footer__bottom_social_link {
   color: #FFFFFF;
   text-decoration: none;
+
+  &:hover {
+    color: #FCB500;
+    text-decoration: none;
+  }
 }
 
-.footer__bottom_social_link:hover {
-  color: #FCB500;
-  text-decoration: none;
-}
+//.footer__bottom_social_link:hover {
+//  color: #FCB500;
+//  text-decoration: none;
+//}
 
 
-.footer__bottom_social_item:last-child {
-  margin-right: 0;
-}
+//.footer__bottom_social_item:last-child {
+//  margin-right: 0;
+//}
 
 .footer__bottom_business_text {
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 
@@ -857,9 +872,7 @@ input:focus ~ .label {
   line-height: 17px;
   color: #F8F9FD;
 }
-
-.footer__bottom_business::before {
-  content: "";
+.footer__bottom_business_icon{
   position: absolute;
   height: 23px;
   width: 23px;
@@ -867,8 +880,18 @@ input:focus ~ .label {
   bottom: 0;
   left: 0;
   margin: auto;
-  background: transparent url(../img/footer/icon-wss.svg) 0 0/100% no-repeat;
 }
+//.footer__bottom_business::before {
+//  content: "";
+//  position: absolute;
+//  height: 23px;
+//  width: 23px;
+//  top: 0;
+//  bottom: 0;
+//  left: 0;
+//  margin: auto;
+//  background: transparent url(../img/footer/icon-wss.svg) 0 0/100% no-repeat;
+//}
 
 
 @import "modal";
